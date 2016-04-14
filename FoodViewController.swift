@@ -46,9 +46,30 @@ class FoodViewController: UITableViewController {
             let cell: AnyObject = tableView.dequeueReusableCellWithIdentifier("FoodCell", forIndexPath: indexPath)
             
             let food = foods[indexPath.row] as Food
-            cell.textLabel??.text = food.name
-            cell.detailTextLabel??.text = food.price
+            
+            if let nameLabel = cell.viewWithTag(100) as? UILabel { //3
+                nameLabel.text = food.name
+            }
+            if let gameLabel = cell.viewWithTag(101) as? UILabel {
+                gameLabel.text = food.price
+            }
+            if let ratingImageView = cell.viewWithTag(102) as? UIImageView {
+                ratingImageView.image = self.imageForRating(food.nutrients)
+            }
             return cell as UITableViewCell
+
+    }
+    
+
+
+/*
+cell.textLabel??.text = food.name
+cell.detailTextLabel??.text = food.price
+return cell as UITableViewCell
+*/
+    func imageForRating(nutrients:Int) -> UIImage? {
+        let imageName = "\(nutrients)Stars"
+        return UIImage(named: imageName)
     }
 
     /*

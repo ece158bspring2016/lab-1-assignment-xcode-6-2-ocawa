@@ -9,6 +9,6 @@
 import Foundation
 
 let foodData = [
-    Food(name:"Bok Choi", price:"Moderate", nutrients: 10),
-    Food(name: "Spinach", price: "Cheap", nutrients: 9),
-    Food(name: "Salmon", price: "Expensive", nutrients: 10) ]
+    Food(name:"Bok Choi", price:"Moderate", nutrients: 5),
+    Food(name: "Spinach", price: "Cheap", nutrients: 4),
+    Food(name: "Salmon", price: "Expensive", nutrients: 5) ]
