@@ -13,6 +13,9 @@
 		D51E8B2B1CBEFEB30032F370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51E8B2A1CBEFEB30032F370 /* Images.xcassets */; };
 		D51E8B2E1CBEFEB30032F370 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D51E8B2C1CBEFEB30032F370 /* LaunchScreen.xib */; };
 		D51E8B3A1CBEFEB30032F370 /* storyBoardLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E8B391CBEFEB30032F370 /* storyBoardLabTests.swift */; };
+		D51E8B461CBF12860032F370 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E8B451CBF12860032F370 /* FoodViewController.swift */; };
+		D51E8B481CBF12FE0032F370 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E8B471CBF12FE0032F370 /* Food.swift */; };
+		D51E8B4A1CBF13B90032F370 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E8B491CBF13B90032F370 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D51E8B331CBEFEB30032F370 /* storyBoardLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyBoardLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51E8B381CBEFEB30032F370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D51E8B391CBEFEB30032F370 /* storyBoardLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyBoardLabTests.swift; sourceTree = "<group>"; };
+		D51E8B451CBF12860032F370 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodViewController.swift; path = ../FoodViewController.swift; sourceTree = "<group>"; };
+		D51E8B471CBF12FE0032F370 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D51E8B491CBF13B90032F370 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		D51E8B201CBEFEB30032F370 /* storyBoardLab */ = {
 			isa = PBXGroup;
 			children = (
+				D51E8B451CBF12860032F370 /* FoodViewController.swift */,
 				D51E8B231CBEFEB30032F370 /* AppDelegate.swift */,
 				D51E8B251CBEFEB30032F370 /* ViewController.swift */,
 				D51E8B271CBEFEB30032F370 /* Main.storyboard */,
+				D51E8B471CBF12FE0032F370 /* Food.swift */,
+				D51E8B491CBF13B90032F370 /* SampleData.swift */,
 				D51E8B2A1CBEFEB30032F370 /* Images.xcassets */,
 				D51E8B2C1CBEFEB30032F370 /* LaunchScreen.xib */,
 				D51E8B211CBEFEB30032F370 /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51E8B4A1CBF13B90032F370 /* SampleData.swift in Sources */,
 				D51E8B261CBEFEB30032F370 /* ViewController.swift in Sources */,
+				D51E8B481CBF12FE0032F370 /* Food.swift in Sources */,
+				D51E8B461CBF12860032F370 /* FoodViewController.swift in Sources */,
 				D51E8B241CBEFEB30032F370 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
